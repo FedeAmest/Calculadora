@@ -36,6 +36,7 @@ function Operador(){
     if (operador === '+/-') {
         if (Number(display.textContent) !== 0) {
             display.innerText = -1 * Number(display.textContent);
+            num1 = Number(display.textContent)
         }
         display.innerText = formatearNumero(display.innerText);
         
