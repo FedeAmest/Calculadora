@@ -1,0 +1,64 @@
+.container{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: whitesmoke;
+}
+.calculadora {
+    border-radius: 15px;
+    padding-top: 10px;
+    background-color: rgb(0 0 0 / 28%);
+    align-items: center;
+    width: 578px;
+    display: flex;
+    flex-direction: column;
+}
+.displayContainer{
+    display: flex;
+    width: 95%;
+}
+.display {
+    border-radius: 10px;
+    justify-content: right;
+    width: 580px;
+    height: 100px;
+    display: flex;
+    background-color: slategrey;
+    align-items: end;
+    font-size: 24px;
+    padding-right: 20px;
+}
+.numContainer {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.btn {
+    border-style: none;
+    box-shadow: inset -2px -2px 3px 2px #989999;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    width: 135.5px;
+    display: flex;
+    border-radius: 10px;
+    height: 70px;
+    background-color: lightgray;
+
+}
+.simbolo, .porcentaje {
+    background-color: #7b8181;
+}
+.igual{
+    background-color: rgb(216, 61, 5);
+}
+.btn:active{
+    box-shadow: inset 1.5px 1.5px 3px 1px #555252
+}
+h3{
+    font-weight: bold;
+    font-family: "League Spartan",sans-serif;
+}
