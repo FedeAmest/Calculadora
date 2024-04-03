@@ -126,4 +126,5 @@ for (let i = 0;i<operadores.length;i++){
 }
 //Resultado
 igual.addEventListener('click',Igual)
+//Porcentaje
 porcentaje.addEventListener('click',Porciento)

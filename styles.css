@@ -1,9 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+    background-repeat:no-repeat ;
+}
 .container{
-    height: 100vh;
+    height: 90vh;
     align-items: center;
     justify-content: center;
     display: flex;
-    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
 }
 .calculadora {
     border-radius: 15px;
@@ -61,4 +68,14 @@
 h3{
     font-weight: bold;
     font-family: "League Spartan",sans-serif;
+}
+.footer{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background: linear-gradient(to right, #898989, #937fb7);
+
+    
 }
