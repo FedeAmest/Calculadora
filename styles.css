@@ -79,3 +79,16 @@ h3{
 
     
 }
+
+@media(max-width:768px){
+    .calculadora{
+        width: 300px;
+        border: 1px solid red;
+    }
+    .btn{
+        width: 66px;
+    }
+}
+@media(max-width: 767px){
+
+}
